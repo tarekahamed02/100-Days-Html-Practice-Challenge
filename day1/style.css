@@ -2,21 +2,38 @@
     float: left;
     margin-right: 15px;
 }
+
 .alignright {
     float: right;
     margin-left: 15px;
 }
+
 .aligncenter {
     display: block;
     margin: 0 auto 15px;
 }
-a:hover { text-decoration: none }
-a:focus { outline: 0 solid; text-decoration: none}
+
+a:hover {
+    text-decoration: none
+}
+
+a:focus {
+    outline: 0 solid;
+    text-decoration: none
+}
+
 img {
     max-width: 100%;
     height: auto;
 }
-input:focus, button:focus, textarea:focus, a:focus {outline: none}
+
+input:focus,
+button:focus,
+textarea:focus,
+a:focus {
+    outline: none
+}
+
 h1,
 h2,
 h3,
@@ -26,6 +43,61 @@ h6 {
     margin: 0 0 15px;
     font-weight: 700;
 }
+
 p:last-child {
     margin-bottom: 0
+}
+
+
+
+.service-bg img {
+    width: 100%;
+}
+
+.single-serviece-item {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.single-serviece-item h2 {
+    background: #333;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 10px;
+    left: 0;
+    font-size: 20px;
+}
+
+
+.single-serviece-item.fake-service {
+    position: relative;
+}
+
+.fake-service .service-bg,
+.fake-service h2 {
+    opacity: 0;
+}
+
+.service-cta {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.service-cta-inner {
+    background: #455d7a;
+    color: #fff;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.service-cta-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
 }
