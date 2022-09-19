@@ -1,1 +1,0 @@
-<img src="assets/img/day02.png" alt="">
